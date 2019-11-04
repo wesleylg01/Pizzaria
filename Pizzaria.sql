@@ -34,7 +34,6 @@ CREATE TABLE PRODUTO (IdProduto    INT IDENTITY(1,1) PRIMARY KEY,
 					  Nome         VARCHAR(100)  NOT NULL,
 					  Cod_Barras   VARCHAR(13),
 					  MateriaPrima BIT DEFAULT (0),
-					  Valor        DECIMAL(10,2) NOT NULL,
 					  Qtd_Estoque  DECIMAL(10,3) NOT NULL)
 
 CREATE TABLE PEDIDO (IdPedido		 INT IDENTITY(1,1) PRIMARY KEY,
